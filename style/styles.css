@@ -1,0 +1,191 @@
+/* Nav Content*/
+ .navbar-default {
+    background-color: #3D70A4;
+    border-color: #E7E7E7;
+}
+
+/* Navigation link text color */
+.navbar .nav > li > a {
+    color:  white;
+}
+
+/* Set the navbar hover color */
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #366493;
+    color: white;
+}
+
+/* Set the navbar focus color */
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #2a4e72;
+    color: white;
+}
+
+#brand {
+	color: black;
+	font-size:125%;
+}
+ 
+
+ 
+ 
+ 
+ 
+ /* Main Content*/
+ .topPadding {
+	padding-top:40px;
+ }
+ 
+ .awesome {
+	padding-top:10px;
+ }
+ 
+ /* Remove list indent */
+  .awesome ul {
+	padding-left:16px;
+ }
+ 
+ .purpleText {
+	padding-bottom:10px;
+   color: purple;
+ }
+ 
+  .purpleButton {
+	background-color: purple;
+	color: white;
+ }
+ 
+ 
+ 
+ 
+ /* Table  Content */
+ .ratesHeader {
+	padding-top:30px;
+	padding-bottom:10px;
+ }
+ 
+ /* Bold the first row of the table */
+ table tr:nth-of-type(2) {
+	font-weight:bold;
+ }
+ 
+ /* Even and Odd table color */
+ table tr:nth-child(odd) td {
+	background-color: #e3ece3;
+}
+ table tr:nth-child(even) td {
+	background-color: #CFDFCF;
+}
+
+ /* Removed border from table keys*/
+ .noBorder {
+	border:none;
+ }
+ 
+ 
+ 
+ 
+ /* Mobile Section */
+ .mobileInfo {
+	margin-top:30px;
+	background-color: #9CBD9C;
+	padding: 10px;
+	position: relative;	
+ }
+ 
+ /* Sets the size and position of the mobile phone image*/
+ #mobilePhoneImage {
+	float:right;
+	margin-top:-130px;
+	width: 250px;
+ }
+ 
+ /* Hide the phone icon when the resolution gets small */
+ @media only screen and (max-width: 800px) {
+    #mobilePhoneImage {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* Sidebar Css Styling*/
+ .contentSideBar {
+	padding:20px;
+ }
+ 
+ .loginButton {	
+	width:100%;
+	max-width:300px;
+	font-weight: 500;
+ }
+ 
+ /* Sets the properties of the login window that appears in the center of the screen above all content.  Hidden by default*/
+ #loginWindow {
+	position:absolute;
+	width:300px;
+	height:250px;
+	z-index:15;
+	top:30%;
+	left:50%;
+	margin:-125px 0 0 -150px;
+	border:solid 1px;
+	background-color:white;
+	padding:15px;	
+	display:none;
+ }
+ 
+ .newsArchive {
+	padding-top:20px;
+ }
+
+ #tabSidebar .active a {
+	background-color:#DFDFDF;
+ }
+ 
+ #tabSidebar :not(.active) a {
+	background-color:#CFDFCF;
+ }
+ 
+ #tabContent {
+ 	border-left:solid 1px;
+	border-right:solid 1px;
+	border-bottom:solid 1px;
+	border-left-color:#DDDDDD;
+	border-right-color:#DDDDDD;
+	border-bottom-color:#DDDDDD;
+	padding:10px;
+	background-color:#DFDFDF;
+ }
+ 
+ /* Hides the Archive sidebar tab by default */
+ .displayNone {
+	display:none;
+ }
+
+ 
+ 
+ 
+ 
+
+/* Bootstrap Sticky footer*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  padding-top:50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #DFDFDF;
+}
